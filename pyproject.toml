@@ -1,0 +1,17 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "argon-mcp-harness"
+version = "2.0.0"
+description = "Zero-dependency MCP server for bounded execution, prefix-cache scrubbing, and multi-language diagnostic compaction."
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = []
+
+[project.scripts]
+argon-mcp-harness = "argon_harness.server:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
