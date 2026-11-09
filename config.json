@@ -1,0 +1,13 @@
+{
+  "mcpServers": {
+    "argon-mcp-harness": {
+      "command": "C:\\Tools\\Python3.14\\python.exe",
+      "args": [
+        "C:\\Workspace\\Projects\\argon-mcp-harness\\argon_harness_mcp.py"
+      ],
+      "env": {
+        "PYTHONUNBUFFERED": "1"
+      }
+    }
+  }
+}
