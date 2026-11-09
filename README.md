@@ -18,3 +18,5 @@ Zero-dependency Python 3.10+ Model Context Protocol (MCP) server over stdio (`JS
 ```powershell
 C:\Tools\Python3.14\python.exe -m unittest discover -s tests -v
 ```
+
+Note that it's vibecoded and I'm developing it for my own use.
