@@ -1,7 +1,6 @@
 # Project-specific exclusions
 HANDOFF.md
 PENETRATION_TESTING.md
-tests/
 
 # Python bytecode & cache
 __pycache__/
@@ -27,8 +26,14 @@ env/
 .ruff_cache/
 .coverage
 htmlcov/
+last_run.log
+results.json
 
 # Environment & OS files
 .env
 .DS_Store
 Thumbs.db
+
+# Agent Files
+KANBAN.md
+AGENTS.md
